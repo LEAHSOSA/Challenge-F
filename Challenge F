@@ -1,0 +1,12 @@
+# Welcome to Sonic Pi
+x = 0.25
+use_synth :piano
+a = 21
+play 21
+sleep x
+
+87.times do
+  a= a +1
+  play (a)
+  sleep x
+end
